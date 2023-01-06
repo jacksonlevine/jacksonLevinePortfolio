@@ -1,7 +1,7 @@
 html {
   color:white;
-  font-size:larger;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-size:large;
+  font-family:sans-serif;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
   text-align:center; 
   width:70%;         
   margin:0 auto;     
-  background-color:rgb(59, 12, 0);
+  background-color:rgb(49, 32, 5);
 }
 
 .headimage {
@@ -135,14 +135,32 @@ img {
   }
 }
 
+@media screen and (max-width: 1185px) {
+  .banner img {
+    opacity: 0%;
+    transition: opacity 0.5s;
+  }
+}
+
+@media screen and (min-width: 1185px) {
+  .banner img {
+    opacity: 100%;
+    transition: opacity 0.5s;
+  }
+}
+
 .headfont {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left:-100%;
 }
 
 .aboutMe {
   text-align:left;
 }
-
+.aboutMe img {
+  width: 70%;
+  height: auto;
+}
 .hoverView {
   opacity: 0%;
 }
@@ -158,5 +176,5 @@ img {
 }
   
 .grow:hover { 
-  transform: scale(1.1); 
+  transform: scale(1.02); 
 }

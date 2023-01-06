@@ -1,6 +1,6 @@
 # Jackson Levine's Portfolio Page
 By Jackson Levine
-## A simple HTML and CSS based website to serve as a portfolio landing page. 
+## A simple reactive HTML and CSS based website to serve as a portfolio landing page. 
 # Technologies Used:
 * HTML
 * CSS
@@ -12,6 +12,8 @@ By Jackson Levine
 * Alternatively, you can go to the pages site: http://github.io/jacksonlevine/jacksonLevinePortfolio
 # Known Bugs:
 * Text may extend out of boxes in some circumstances.
-* TODO: Add animation.
+
+~~* TODO: Add animation.~~
+* TODO: Add indicator to display that you can click the images to enlarge
 
 _Please_ report any bugs to my personal email jack@netbug.us. Thank you!
