@@ -14,6 +14,7 @@ By Jackson Levine
 * Text may extend out of boxes in some circumstances.
 
 ~~* TODO: Add animation.~~
-* TODO: Add indicator to display that you can click the images to enlarge
+
+~~* TODO: Add indicator to display that you can click the images to enlarge~~
 
 _Please_ report any bugs to my personal email jack@netbug.us. Thank you!

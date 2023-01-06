@@ -141,6 +141,8 @@ img {
   user-select: none;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
+  font-weight:bolder;
+  font-size:larger;
 }
 
 @media screen and (max-width: 1185px) {
