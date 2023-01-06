@@ -37,8 +37,8 @@ body {
   align-items:center;
   border: 4px double gold;
   padding-bottom:40px;
-  background-color:grey;
   margin:-5px;
+  background-color: rgb(49, 32, 5);
 }
 
 .captionedImage img {
@@ -107,7 +107,7 @@ img {
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 700px) {
   .captionedImage img{ 
     width: 180px;
     height: 160px;
@@ -125,7 +125,7 @@ img {
     gap:10px;
   }
 }
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 700px) {
   body section {             
     display:grid;
     justify-content:center;
