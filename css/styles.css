@@ -17,6 +17,17 @@ body {
   width:40%;
 }
 
+.blue {
+  color:blue;
+}
+
+.white {
+  color:white;
+}
+
+.purple {
+  color:purple;
+}
 .captionedImage {
   display:flex;
   flex-direction: column;
