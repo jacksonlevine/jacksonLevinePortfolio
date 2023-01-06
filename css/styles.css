@@ -1,12 +1,15 @@
 body {
-  text-align:center; /*Align body text to the center*/
-  width:70%;         /*Make page not span fully to the edges*/
-  margin:0 auto;     /*Auto center the body in the margin*/
+  text-align:center; 
+  width:70%;         
+  margin:0 auto;     
   background-color: red;
 }
 
 .captionedImage {
-  border: 4px dashed gold;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  border: 4px double gold;
   padding-bottom:40px;
   background-color:grey;
 }
@@ -15,47 +18,49 @@ body {
   padding-top:20px;
 }
 
-@media screen and (min-width: 1000px){
-  .captionedImage img { /*Rules for image in captionedImage div when screen is larger than 1000px*/
+@media screen and (min-width: 1700px){
+  .captionedImage img { 
     width: 300px;
     height: 220px;
   }
-  .captionedImage {     /*Rules for captionedImage div when screen is larger than 1000px*/
+  .captionedImage {    
     width: 400px;
     height: 300px;
   }
 }
 
-@media screen and (max-width: 1000px){
-  .captionedImage img { /*Rules for image in captionedImage div when screen is smaller than 1000px*/
+@media screen and (max-width: 1700px){
+  .captionedImage img { 
     width: 200px;
     height: 180px;
   }
 
-  .captionedImage {     /*Rules for captionedImage div when screen is smaller than 1000px*/
+  .captionedImage {    
     width: 250px;
-    height: 220px;
+    height: 300px;
   }
 }
 
-@media screen and (max-width: 500px){
-  .captionedImage img { /*Rules for image in captionedImage div when screen is smaller than 500px*/
+@media screen and (max-width: 1000px){
+  .captionedImage img { 
     width: 160px;
     height: 140px;
   }
 
-  .captionedImage {     /*Rules for captionedImage div when screen is smaller than 500px*/
+  .captionedImage {     
     width: 180px;
-    height: 160px;
+    height: 250px;
   }
 }
 
-
-
-section {             /*Rules for section of CSS Grid*/
+body section {             
   display:grid;
   justify-content:center;
   align-content:center;
   gap:10px;
   grid-auto-flow:column;
+}
+
+.aboutMe {
+  text-align:left;
 }
