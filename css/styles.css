@@ -1,5 +1,7 @@
 html {
+  color:white;
   font-size:larger;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 body {
@@ -9,12 +11,13 @@ body {
   text-align:center; 
   width:70%;         
   margin:0 auto;     
-  background-color: red;
+  background-color:rgb(59, 12, 0);
 }
 
 .headimage {
   float:left;
   width:40%;
+  height:40%;
 }
 
 .blue {
@@ -22,11 +25,11 @@ body {
 }
 
 .white {
-  color:white;
+  color:purple;
 }
 
 .purple {
-  color:purple;
+  color:red;
 }
 .captionedImage {
   display:flex;
@@ -35,6 +38,7 @@ body {
   border: 4px double gold;
   padding-bottom:40px;
   background-color:grey;
+  margin:-5px;
 }
 
 .captionedImage img {
@@ -54,7 +58,8 @@ body {
 .banner {
   display:flex;
   flex-direction:row;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items:flex-end;
 }
 
 .doubleCaptionedImage {
