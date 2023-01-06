@@ -13,6 +13,8 @@ By Jackson Levine
 # Known Bugs:
 * Text may extend out of boxes in some circumstances.
 
+* Lizard sometimes fades in over the name at the top.
+
 ~~* TODO: Add animation.~~
 
 ~~* TODO: Add indicator to display that you can click the images to enlarge~~
