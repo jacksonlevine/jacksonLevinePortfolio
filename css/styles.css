@@ -36,6 +36,16 @@ body {
   justify-content:space-around;
 }
 
+.exciting {
+  color:gold;
+}
+
+.banner {
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+}
+
 .doubleCaptionedImage {
   display:flex;
   flex-direction:column;
