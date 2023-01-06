@@ -1,3 +1,7 @@
+html {
+  font-size:larger;
+}
+
 body {
   text-align:center; 
   width:70%;         
@@ -16,6 +20,22 @@ body {
 
 .captionedImage img {
   padding-top:20px;
+}
+
+.doubleImage {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+.doubleCaptionedImage {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+img {
+  width:fit-content;
 }
 
 @media screen and (min-width: 1700px){
