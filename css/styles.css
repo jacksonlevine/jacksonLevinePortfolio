@@ -135,6 +135,14 @@ img {
   }
 }
 
+.imageLinkIndicators {
+  margin-top:-100px;
+  margin-bottom:100px;
+  user-select: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
 @media screen and (max-width: 1185px) {
   .banner img {
     opacity: 0%;
@@ -167,7 +175,7 @@ img {
 
 .hoverView:hover {
   opacity: 100%;
-  transition: opacity 1s;
+  transition: opacity 0.5s;
 }
 
 
@@ -177,4 +185,14 @@ img {
   
 .grow:hover { 
   transform: scale(1.02); 
+}
+
+.grow:hover .imageLinkIndicators { 
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+
+.banner h1 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
 }
