@@ -13,4 +13,5 @@ By Jackson Levine
 # Known Bugs:
 * Text may extend out of boxes in some circumstances.
 * TODO: Add animation.
+
 _Please_ report any bugs to my personal email jack@netbug.us. Thank you!
