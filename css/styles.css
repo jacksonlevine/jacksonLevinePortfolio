@@ -1,0 +1,23 @@
+body {
+  text-align:center; /*Align body text to the center*/
+  width:70%;         /*Make page not span fully to the edges*/
+  margin:0 auto;     /*Auto center the body in the margin*/
+}
+
+.captionedImage img { /*Rules for image in captionedImage div*/
+  width: 200px;
+  height: 180px;
+}
+
+.captionedImage {     /*Rules for captionedImage div*/
+  width: 250px;
+  height: 220px;
+}
+
+section {             /*Rules for section of CSS Grid*/
+  display:grid;
+  justify-content:center;
+  align-content:center;
+  gap:10px;
+  grid-auto-flow:column;
+}
