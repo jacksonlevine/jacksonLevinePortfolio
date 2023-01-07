@@ -20,3 +20,7 @@ By Jackson Levine
 ~~* TODO: Add indicator to display that you can click the images to enlarge~~
 
 _Please_ report any bugs to my personal email jack@netbug.us. Thank you!
+
+Published 1/6/2023
+Copyright _Jackson Levine_ 2023
+Creative Commons License
