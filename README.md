@@ -9,7 +9,7 @@ By Jackson Levine
 * Clone the repository.
 * Navigate to the top folder.
 * Launch index.html in your browser.
-* Alternatively, you can go to the pages site: http://github.io/jacksonlevine/jacksonLevinePortfolio
+* Alternatively, you can go to the pages site: http://jacksonlevine.github.io/jacksonLevinePortfolio
 # Known Bugs:
 * Text may extend out of boxes in some circumstances.
 
